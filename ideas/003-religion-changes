@@ -25,6 +25,8 @@ Have spawning generate more difficult monsters based on how many sacrifices
 the player makes.
 Move the golden glow to a higher lookup number.
 (Maybe) sacrificing too much angers your god.
+Sacrificing burns nutrition equal to half the number of turns deducted from
+the prayer timeout.
 Altars don't generate above B5.
 Implement one or more of the following:
 * Give more useful crowning artifacts. These will not be given through
