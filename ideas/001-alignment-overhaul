@@ -1,0 +1,13 @@
+Alignment Overhaul
+
+Problem(s):
+It is too easy to get a high alignment record; in fact, it is quite difficult
+to have less than 20 AR. As a corollary, any loss of AR is inconsequential
+to mid- to late-game players.
+
+Solution:
+
+Cap AR to +/- 30.
+Make killing enemies give AR much more slowly (at 1/50 of the current rate?)
+or not at all.
+For fun: converting your own alignment flips the sign of your AR.

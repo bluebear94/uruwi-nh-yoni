@@ -1,0 +1,14 @@
+Magic Portal Changes
+
+Problem:
+Accidentally attacking your quest leader or failing the AR test 7 times makes
+the game unwinnable. This, however, is only a minor problem.
+
+Solution:
+
+When ejected from the quest, the magic portal does not disappear but rather
+becomes inactivated for ~50,000 turns. The quest leader will still be angry
+once you return.
+Killing your quest leader opens the stairs to the quest, as in certain
+variants.
+To compensate, quest leaders will have better stats.

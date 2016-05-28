@@ -1,0 +1,22 @@
+Slime Molds
+
+Problem:
+It is impossible to set separate names for the slime mold item and the name
+used to refer to slime mold farms.
+
+Solution:
+
+Allow setting these names in options separately. For example, you can have the
+slime mold be called "a slice of watermelon" but get references to the
+"watermelon farm" instead of the current "slice of watermelon farm". Also
+allow defining a separate plural form so you can have "2 slices of watermelon"
+rather than "2 slice of watermelons".
+
+Also add a new mob called the "walking <fruit name>", a tiny mob of difficulty
+2 and a speed slightly slower than the player's normal speed. It is
+represented by a yellow F and drops 1 - 3 slime molds.
+
+What about wishing for slime molds, though? Treat the singular form defined
+in options as the singular form, the plural form (if defined separately) as
+the plural, and the mass form as the singular as well. The default "slime
+mold" is also allowed.

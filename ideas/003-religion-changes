@@ -1,0 +1,42 @@
+Religion Changes
+
+Problem:
+Camping at an altar allows players to accumulate not only lots of death drops
+but also ridiculously high maximum hit points and boatloads of divine
+protection.
+Crowning has few benefits to compensate for the increased prayer timeout.
+The artifact granted can be obtained through sacrifice (or just dipping a
+longsword into a fountain if you're Lawful) and the intrinsics can be obtained
+from corpses.
+
+Solution:
+
+Make altar scumming more difficult.
+Make crowning more difficult but more desirable.
+
+(See also 001-alignment-overhaul)
+Have monsters avoid standing on altars. They will still attack players who
+stand on altars, so altars don't become a sort of permanent Elbereth.
+Limit the amount of protection that can be given as a favor.
+Have favors take away a few points of luck (but not reduce it below zero). As
+a result, you might need to make more sacrifices than needed to nullify the
+prayer timeout to get crowned.
+Have spawning generate more difficult monsters based on how many sacrifices
+the player makes.
+Move the golden glow to a higher lookup number.
+(Maybe) sacrificing too much angers your god.
+Altars don't generate above B5.
+Implement one or more of the following:
+* Give more useful crowning artifacts. These will not be given through
+  sacrifices, and they are unwishable.
+  * Chaotic: a gray-and-silver DSM that provides only 4 AC but both MR and
+    reflection?
+* Modify the max HP given by the golden glow. I suggest 4 HP without crowning
+  and 4 ~ 16 HP (avg 10) with crowning.
+* If the lookup number for the favor is at least 8 but you are already
+  crowned, select a random favor from the following list:
+  * identify an item
+  * give a random item as if the player aborted a wish; this does not break
+  wishless conduct
+  * very rarely, grant a wish (perhaps limit it to one as well)
+* If you are crowned, the timeout limit to pray for trouble is increased.

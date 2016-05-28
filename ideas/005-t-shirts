@@ -1,0 +1,31 @@
+T-Shirts
+
+Problem:
+It would be nice to have a greater variety of T-shirts.
+
+Solution:
+
+T-shirts now appear in multiple colors (ideally displaying the tile with the
+respective color), and these colors are shown in the description. They can
+also have an image on them in place of text, or be blank; reading blank
+T-shirts or those with images does not break illiterate conduct. The
+probability of getting a certain type of pattern depends on the color, as
+shown below:
+
+Color | Blank |  Text | Image
+White |  10 % |  50 % |  40 %
+Other |  50 % |  20 % |  30 %
+
+Certain messages on the T-shirt are associated with a certain color, and will
+force the T-shirt to be that color. [Implementation detail: Declare all
+custom-colored messages at the beginning of the array of messages, and check
+if index is less than number of custom-colored messages.]
+
+* I explored the Dungeons of Doom and all I got was this lousy T-shirt! ~
+  white (since it's the only original T-shirt message)
+* Anhur State University - Home of the Fighting Fire Ants! ~ red
+* White Zombie ~ white
+* Hey, black dragon!  Disintegrate THIS! ~ black
+* Lichen Park ~ light green
+
+Cancelling a T-shirt will make it blank.
